@@ -1,0 +1,3 @@
+/home/jrinder/CLionProjects/KCC2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/jrinder/CLionProjects/KCC2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jrinder/CLionProjects/KCC2/cmake-build-debug/CMakeFiles/KCC2.dir
