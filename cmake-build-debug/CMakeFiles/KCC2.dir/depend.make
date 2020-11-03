@@ -8,4 +8,5 @@ CMakeFiles/KCC2.dir/main.c.o: ../scanner.h
 CMakeFiles/KCC2.dir/scanner.c.o: ../defaults.h
 CMakeFiles/KCC2.dir/scanner.c.o: ../scanner.c
 CMakeFiles/KCC2.dir/scanner.c.o: ../scanner.h
+CMakeFiles/KCC2.dir/scanner.c.o: ../systemdefs.h
 

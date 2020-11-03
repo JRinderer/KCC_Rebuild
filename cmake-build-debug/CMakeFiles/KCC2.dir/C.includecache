@@ -8,20 +8,6 @@
 
 /home/jrinder/CLionProjects/KCC_Rebuild/defaults.h
 
-/home/jrinder/CLionProjects/KCC_Rebuild/main.c
-defaults.h
-/home/jrinder/CLionProjects/KCC_Rebuild/defaults.h
-stdio.h
--
-string.h
--
-stdlib.h
--
-ctype.h
--
-scanner.h
-/home/jrinder/CLionProjects/KCC_Rebuild/scanner.h
-
 /home/jrinder/CLionProjects/KCC_Rebuild/scanner.c
 stdio.h
 -
@@ -31,6 +17,8 @@ defaults.h
 /home/jrinder/CLionProjects/KCC_Rebuild/defaults.h
 scanner.h
 /home/jrinder/CLionProjects/KCC_Rebuild/scanner.h
+systemdefs.h
+/home/jrinder/CLionProjects/KCC_Rebuild/systemdefs.h
 
 /home/jrinder/CLionProjects/KCC_Rebuild/scanner.h
 stdio.h
@@ -39,4 +27,6 @@ string.h
 -
 stdlib.h
 -
+
+/home/jrinder/CLionProjects/KCC_Rebuild/systemdefs.h
 
