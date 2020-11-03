@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jrinder/CLionProjects/kcc_klump_main/KCC_Rebuild/main.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+ctype.h
+-
+systemdefs.h
+/home/jrinder/CLionProjects/kcc_klump_main/KCC_Rebuild/systemdefs.h
+
+/home/jrinder/CLionProjects/kcc_klump_main/KCC_Rebuild/systemdefs.h
+
