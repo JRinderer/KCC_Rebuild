@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/KCC2.dir/main.c.o"
+  "CMakeFiles/KCC2.dir/scanner.c.o"
   "KCC2"
   "KCC2.pdb"
 )

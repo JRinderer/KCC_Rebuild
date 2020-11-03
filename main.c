@@ -3,6 +3,8 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include "systemdefs.h"
+#include "scanner.h"
+
 
 int main(int argc, char *argv[]) {
     //-----create a file object----
@@ -69,6 +71,8 @@ int main(int argc, char *argv[]) {
     }
 
     rewind(filePtr);
+
+    scannerMain(filePtr);
 
     return 0;
 }

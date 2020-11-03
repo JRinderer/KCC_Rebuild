@@ -68,10 +68,10 @@ RM = /home/jrinder/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/bi
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jrinder/CLionProjects/kcc_klump_main/KCC_Rebuild
+CMAKE_SOURCE_DIR = /home/jrinder/CLionProjects/KCC_Rebuild
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jrinder/CLionProjects/kcc_klump_main/KCC_Rebuild/cmake-build-debug
+CMAKE_BINARY_DIR = /home/jrinder/CLionProjects/KCC_Rebuild/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jrinder/CLionProjects/kcc_klump_main/KCC_Rebuild/cmake-build-debug/CMakeFiles /home/jrinder/CLionProjects/kcc_klump_main/KCC_Rebuild/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jrinder/CLionProjects/KCC_Rebuild/cmake-build-debug/CMakeFiles /home/jrinder/CLionProjects/KCC_Rebuild/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jrinder/CLionProjects/kcc_klump_main/KCC_Rebuild/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jrinder/CLionProjects/KCC_Rebuild/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -170,6 +170,33 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KCC2.dir/build.make CMakeFiles/KCC2.dir/main.c.s
 .PHONY : main.c.s
 
+scanner.o: scanner.c.o
+
+.PHONY : scanner.o
+
+# target to build an object file
+scanner.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KCC2.dir/build.make CMakeFiles/KCC2.dir/scanner.c.o
+.PHONY : scanner.c.o
+
+scanner.i: scanner.c.i
+
+.PHONY : scanner.i
+
+# target to preprocess a source file
+scanner.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KCC2.dir/build.make CMakeFiles/KCC2.dir/scanner.c.i
+.PHONY : scanner.c.i
+
+scanner.s: scanner.c.s
+
+.PHONY : scanner.s
+
+# target to generate assembly for a file
+scanner.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KCC2.dir/build.make CMakeFiles/KCC2.dir/scanner.c.s
+.PHONY : scanner.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -182,6 +209,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... scanner.o"
+	@echo "... scanner.i"
+	@echo "... scanner.s"
 .PHONY : help
 
 
