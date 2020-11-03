@@ -88,6 +88,9 @@
 		<Unit filename="/home/jrinder/CLionProjects/KCC_Rebuild/scanner.h">
 			<Option target="KCC2"/>
 		</Unit>
+		<Unit filename="/home/jrinder/CLionProjects/KCC_Rebuild/universalfunctions.h">
+			<Option target="KCC2"/>
+		</Unit>
 		<Unit filename="/home/jrinder/CLionProjects/KCC_Rebuild/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
