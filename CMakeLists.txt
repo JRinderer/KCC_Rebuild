@@ -3,4 +3,4 @@ project(KCC2 C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(KCC2 main.c scanner.c scanner.h scanner.c scanner.h)
+add_executable(KCC2 main.c scanner.c)
