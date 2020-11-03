@@ -76,6 +76,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/jrinder/CLionProjects/KCC_Rebuild/defaults.h">
+			<Option target="KCC2"/>
+		</Unit>
 		<Unit filename="/home/jrinder/CLionProjects/KCC_Rebuild/main.c">
 			<Option target="KCC2"/>
 		</Unit>

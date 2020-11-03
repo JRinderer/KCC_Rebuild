@@ -1,23 +1,14 @@
 //
 // Created by jrinder on 11/2/20.
 //
-#include "scanner.h"
+
 #ifndef KCC_SYSTEMDEFS_H
 #define KCC_SYSTEMDEFS_H
 
-#define MAX 200
-#define LIMIT 3000
-#define TRUE 1
-#define FALSE 1
 
 int counts;
 
-char *keywords[42] = {"AND", "ARRAY", "ASCII", "BEGIN", "BOOL", "BREAK", "CALL",
-                      "CASE", "CONST", "CSTRING", "DCL", "DECIMAL", "DEFAULT", "DO",
-                      "DOWNTO", "ELSE", "END", "FOR", "GLOBAL", "GOTO", "IF", "INT", "NEXT",
-                      "NOT", "NUMBER", "OF", "OR", "PROC", "PROCEDURE", "READ", "READLN",
-                      "REAL", "RECORD", "RETURN", "STRING", "THEN", "TO", "TYPE", "VAR", "WHILE",
-                      "WRITE", "WRITELN"};
+char *keywords[42];
 
 
 //Some operators are two dimensional and have to be tested as such
@@ -112,17 +103,7 @@ typedef struct {
 
 } Token;
 
-int isExAcceptableChar(char c) {
-    if (c == '.' || c == '(' || c == ')' || c == ',' || c =='{' || c == '}' ||
-        c == ';' || c == '[' || c == ']' ||
-        c == ':' || c == '+' || c == '-' || c == '*' || c == '/' || c == '%' ||
-        c == '=' || c == '<' || c == '>' || c == '!' || c == '"' || c == '#' || c=='\''
-        /* || c == '#' */ ) {
 
-        return 1;
-    } else
-        return 0;
-}
 
 
 #endif //KCC_SYSTEMDEFS_H

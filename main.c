@@ -1,13 +1,23 @@
 
-#include "systemdefs.h"
+#include "defaults.h"
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
 #include <ctype.h>
 
+#include "scanner.h"
 
+int isExAcceptableChar(char c) {
+    if (c == '.' || c == '(' || c == ')' || c == ',' || c =='{' || c == '}' ||
+        c == ';' || c == '[' || c == ']' ||
+        c == ':' || c == '+' || c == '-' || c == '*' || c == '/' || c == '%' ||
+        c == '=' || c == '<' || c == '>' || c == '!' || c == '"' || c == '#' || c=='\''
+        /* || c == '#' */ ) {
 
-
+        return 1;
+    } else
+        return 0;
+}
 
 int main(int argc, char *argv[]) {
     //-----create a file object----
@@ -79,3 +89,5 @@ int main(int argc, char *argv[]) {
 
     return 0;
 }
+
+

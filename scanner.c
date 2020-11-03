@@ -4,7 +4,15 @@
 
 #include <stdio.h>
 #include <string.h>
-#include "systemdefs.h"
+#include "defaults.h"
+#include "scanner.h"
+
+char *keywords[42] = {"AND", "ARRAY", "ASCII", "BEGIN", "BOOL", "BREAK", "CALL",
+"CASE", "CONST", "CSTRING", "DCL", "DECIMAL", "DEFAULT", "DO",
+"DOWNTO", "ELSE", "END", "FOR", "GLOBAL", "GOTO", "IF", "INT", "NEXT",
+"NOT", "NUMBER", "OF", "OR", "PROC", "PROCEDURE", "READ", "READLN",
+"REAL", "RECORD", "RETURN", "STRING", "THEN", "TO", "TYPE", "VAR", "WHILE",
+"WRITE", "WRITELN"};
 
 int scannerMain(FILE *filePntr){
     int status = 0;
