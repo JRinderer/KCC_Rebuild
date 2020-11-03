@@ -35,6 +35,7 @@ int inReservedWord(char *word){
     for(i = 0; i<42;i++){
         if(!strcmp(keywords[i],word)){
             results = TRUE;
+            //these are comments
         }
     }
     return results;
