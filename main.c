@@ -11,6 +11,7 @@
 
 int main(int argc, char *argv[]) {
     //-----create a file object----
+//this is a text
     FILE *filePtr;
     //-----process cmd args
     switch (argc) {
