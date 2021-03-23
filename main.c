@@ -8,6 +8,7 @@
 #include "scanner.h"
 
 //this is a test
+//I'm adding new comments
 
 int main(int argc, char *argv[]) {
     //-----create a file object----
